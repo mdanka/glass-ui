@@ -4,9 +4,9 @@
     "description": "Glass theme ui styling",
     "license": "Apache-2.0",
     "scripts": {
-        "build": "yarn run build-prepare && sass src/index.scss lib/css/index.css && cp src/variables.scss lib/scss/",
+        "build": "yarn run build-prepare && cp src/variables.scss lib/scss/ && sass src/index.scss lib/css/index.css",
         "build-prepare": "yarn run clean && mkdir -p lib/css && mkdir -p lib/scss",
-        "build-watch": "yarn run build-prepare && sass --watch src/index.scss lib/index.css",
+        "build-watch": "yarn run build-prepare && cp src/variables.scss lib/scss/ && sass --watch src/index.scss lib/css/index.css",
         "clean": "rimraf ./lib",
         "prepare": "yarn run build"
     },
@@ -28,7 +28,5 @@
         "rimraf": "^2.5.4",
         "sass": "^1.14.1"
     },
-    "dependencies": {
-        "normalize.css": "^8.0.0"
-    }
+    "dependencies": {}
 }
