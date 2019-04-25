@@ -191,6 +191,10 @@ input {
     padding: $glassInputPadding;
     border: 1px solid $glassBorderColor;
     line-height: normal;
+
+    &:disabled {
+        background-color: darken(#ffffff, 5%);
+    }
 }
 
 .md-intent-success {
@@ -199,6 +203,14 @@ input {
 
 .md-intent-danger {
     color: $glassIntentDanger;
+}
+
+.md-right-space {
+    margin-right: $glassGridSize;
+}
+
+.md-left-space {
+    margin-left: $glassGridSize;
 }
 
 /*MEDIA QUERIES*/
