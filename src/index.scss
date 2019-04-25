@@ -190,6 +190,7 @@ ul li:not(:last-child), ol li:not(:last-child) {
 input {
     padding: $glassInputPadding;
     border: 1px solid $glassBorderColor;
+    line-height: normal;
 }
 
 .md-intent-success {
