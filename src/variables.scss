@@ -3,10 +3,10 @@ $glassAccentColor: #2B95D6;
 $glassSubtleColor: transparentize($glassMainColor, 0.3);
 $glassFontFamily: 'Nunito Sans', sans-serif;
 
-$glassGridSize: 10px;
+$glassGridSize: 8px;
 
 $glassBorderColor: #dcdcdc;
-$glassInputPadding: 8px 16px;
+$glassInputPadding: $glassGridSize $glassGridSize*2;
 
 $glassIntentSuccess: #197278;
 $glassIntentDanger: #c44536;

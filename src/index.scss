@@ -112,8 +112,8 @@ a:hover, a:active {
 }
 
 .md-running-text {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: $glassGridSize;
+    padding-bottom: $glassGridSize;
     font-size: 16px;
     line-height: 1.5;
 }
