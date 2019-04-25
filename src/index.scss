@@ -192,6 +192,14 @@ input {
     border: 1px solid $glassBorderColor;
 }
 
+.md-intent-success {
+    color: $glassIntentSuccess;
+}
+
+.md-intent-danger {
+    color: $glassIntentDanger;
+}
+
 /*MEDIA QUERIES*/
 
 html {
